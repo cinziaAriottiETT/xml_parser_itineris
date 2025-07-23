@@ -1,0 +1,148 @@
+<dataset type="<dataset type>" datasetID="ITINERIS_XXXXXXXX" active="true">
+	
+	<!-- dataset configuration based on <dataset type>-->
+	
+	<!-- GLOBAL METADATA -->
+    <addAttributes>
+        <att name="acknowledgement">COMPLETARE</att>
+        <att name="cdm_data_type">COMPLETARE</att>
+        <att name="contributors_name">COMPLETARE</att>
+        <att name="contributors_orcid">COMPLETARE</att>
+        <att name="contributors_role">COMPLETARE</att>
+        <att name="conventions">OceanSITES v1.4,SeaDataNet_1.0,COARDS,CF-1.10, ACDD-1.3</att>
+        <att name="coordinates_reference_system">COMPLETARE</att>
+        <att name="creator_name">COMPLETARE</att>
+        <att name="creator_type">COMPLETARE</att>
+        <att name="creator_url">COMPLETARE</att>
+        <att name="data_best_practices_doi">COMPLETARE</att>
+        <att name="data_creation">COMPLETARE</att>
+        <att name="data_dataset">COMPLETARE</att>
+        <att name="data_doi">COMPLETARE</att>
+        <att name="data_format_original">COMPLETARE</att>
+        <att name="data_type">COMPLETARE</att>
+        <att name="data_update">COMPLETARE</att>
+        <att name="data_update_frequence">COMPLETARE</att>
+        <att name="data_version">COMPLETARE</att>
+        <att name="distributor_name">COMPLETARE</att>
+        <att name="distributor_url">COMPLETARE</att>
+        <att name="geospatial_lat_max" type="double"></att>
+        <att name="geospatial_lat_min" type="double"></att>
+        <att name="geospatial_lat_units"></att>
+        <att name="geospatial_lon_max" type="double"></att>
+        <att name="geospatial_lon_min" type="double"></att>
+        <att name="geospatial_lon_units"></att>
+        <att name="geospatial_vertical_max" type="double"></att>
+        <att name="geospatial_vertical_min" type="double"></att>
+        <att name="geospatial_vertical_positive"></att>
+        <att name="geospatial_vertical_units"></att>
+        <att name="infoUrl">COMPLETARE</att>
+        <att name="inspire">COMPLETARE</att>
+        <att name="institution">COMPLETARE</att>
+        <att name="institution_edmo_code">COMPLETARE</att>
+        <att name="institution_edmo_uri">COMPLETARE</att>
+        <att name="institution_ror_code">COMPLETARE</att>
+        <att name="institution_ror_uri">COMPLETARE</att>
+        <att name="keywords">COMPLETARE</att>
+        <att name="keywords_vocabulary">GCMD</att>
+        <att name="license">CC-BY-4.0</att>
+        <att name="license_uri">https://creativecommons.org/licenses/by/4.0/</att>
+        <att name="metadata_dataset">COMPLETARE</att>
+        <att name="metadata_source">COMPLETARE</att>
+        <att name="naming_authority">COMPLETARE</att>
+        <att name="oceanographic_campaign">COMPLETARE</att>
+        <att name="platform_id_orig">COMPLETARE</att>
+        <att name="platform_name">COMPLETARE</att>
+        <att name="platform_organization_managing">COMPLETARE</att>
+        <att name="platform_organization_owning">COMPLETARE</att>
+        <att name="platform_reference_person">COMPLETARE</att>
+        <att name="platform_type_sdn_name">COMPLETARE</att>
+        <att name="platform_type_sdn_uri">COMPLETARE</att>
+        <att name="platform_type_sdn_urn">COMPLETARE</att>
+        <att name="platform_wmo">COMPLETARE</att>
+        <att name="project_code">COMPLETARE</att>
+        <att name="project_DOI">COMPLETARE</att>
+        <att name="project_edmerp">COMPLETARE</att>
+        <att name="project_edmerp_uri">COMPLETARE</att>
+        <att name="project_id">COMPLETARE</att>
+        <att name="project_name">COMPLETARE</att>
+        <att name="project_statement">COMPLETARE</att>
+        <att name="publisher_name">COMPLETARE</att>
+        <att name="publisher_type">COMPLETARE</att>
+        <att name="publisher_url">COMPLETARE</att>
+        <att name="references">COMPLETARE</att>
+        <att name="ri_name">COMPLETARE</att>
+        <att name="ri_short_name">COMPLETARE</att>
+        <att name="ri_national_coordin_organization">COMPLETARE</att>
+        <att name="ri_national_coordin_organization_edmo_code">COMPLETARE</att>
+        <att name="ri_national_coordin_organization_edmo_uri">COMPLETARE</att>
+        <att name="ri_national_coordinating_person">COMPLETARE</att>
+        <att name="ri_start_date">COMPLETARE</att>
+        <att name="ri_geographical_coverage">COMPLETARE</att>
+        <att name="ri_abstract">COMPLETARE</att>
+        <att name="ship_call_sign">COMPLETARE</att>
+        <att name="ship_imo">COMPLETARE</att>
+        <att name="ship_name">COMPLETARE</att>
+        <att name="source">COMPLETARE</att>
+        <att name="standard_name_vocabulary">COMPLETARE</att>
+        <att name="summary">COMPLETARE</att>
+        <att name="time_coverage_duration">COMPLETARE</att>
+        <att name="time_coverage_end">COMPLETARE</att>
+        <att name="time_coverage_resolution">COMPLETARE</att>
+        <att name="time_coverage_start">COMPLETARE</att>
+        <att name="title">COMPLETARE</att>
+    </addAttributes>
+	
+	<!-- FOR EACH VARIABLE -->
+    <dataVariable>
+        <sourceName>COMPLETARE</sourceName>
+        <destinationName>COMPLETARE</destinationName>
+		<dataType>COMPLETARE</dataType>
+		<!-- VARIABLE METADATA -->
+        <addAttributes>
+            <att name="ebv">COMPLETARE</att>
+            <att name="ebv_uri">COMPLETARE</att>
+            <att name="ecv">COMPLETARE</att>
+            <att name="ecv_uri">COMPLETARE</att>
+            <att name="discipline">COMPLETARE</att>
+            <att name="device_sdn_name">COMPLETARE</att>
+            <att name="device_sdn_uri">COMPLETARE</att>
+            <att name="device_sdn_urn">COMPLETARE</att>
+            <att name="long_name">COMPLETARE</att>
+            <att name="parameter_group">COMPLETARE</att>
+            <att name="parameter_sdn_name">COMPLETARE</att>
+            <att name="parameter_sdn_uri">COMPLETARE</att>
+            <att name="parameter_sdn_urn">COMPLETARE</att>
+            <att name="sensor_accuracy">COMPLETARE</att>
+            <att name="sensor_last_calibration">COMPLETARE</att>
+            <att name="sensor_manufacturer_sdn_name">COMPLETARE</att>
+            <att name="sensor_manufacturer_sdn_uri">COMPLETARE</att>
+            <att name="sensor_manufacturer_sdn_urn">COMPLETARE</att>
+            <att name="sensor_sdn_name">COMPLETARE</att>
+            <att name="sensor_sdn_uri">COMPLETARE</att>
+            <att name="sensor_sdn_urn">COMPLETARE</att>
+            <att name="standard_name">COMPLETARE</att>
+            <att name="unit_sdn_name">COMPLETARE</att>
+            <att name="unit_sdn_uri">COMPLETARE</att>
+            <att name="unit_sdn_urn">COMPLETARE</att>
+            <att name="units">COMPLETARE</att>
+            <att name="units_url">COMPLETARE</att>
+            <att name="variable_best_practices_doi">COMPLETARE</att>
+        </addAttributes>
+    </dataVariable>
+	
+	<!-- FOR EACH QC VARIABLE -->
+    <dataVariable>
+        <sourceName>COMPLETARE(VAR_QC)</sourceName>
+        <destinationName>COMPLETARE(VAR_QC)</destinationName>
+		<dataType>COMPLETARE(VAR_QC)</dataType>
+		<!-- VARIABLE METADATA -->
+        <addAttributes>
+            <att name="standard_name">COMPLETARE</att>
+            <att name="long_name">COMPLETARE</att>
+            <att name="flag_meanings">COMPLETARE</att>
+            <att name="flag_values">COMPLETARE</att>
+            <att name="qc_manual">COMPLETARE</att>
+            <att name="qc_method">COMPLETARE</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>

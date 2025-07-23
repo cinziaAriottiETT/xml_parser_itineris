@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dataset type="EDDTableFromAsciiFiles" datasetID="AIPO_WISP_LU_RADIANCE_3" active="true">
+	<reloadEveryNMinutes>1440</reloadEveryNMinutes>
+	<updateEveryNMillis>10000</updateEveryNMillis>
+	<fileDir>/datasets/datastream_AIPO_WISP_LU_RADIANCE_3</fileDir>
+	<fileNameRegex>.*\.csv</fileNameRegex>
+	<recursive>false</recursive>
+	<pathRegex>.*</pathRegex>
+	<metadataFrom>last</metadataFrom>
+	<standardizeWhat>0</standardizeWhat>
+	<charset>ISO-8859-1</charset>
+	<columnSeparator>,</columnSeparator>
+	<columnNamesRow>1</columnNamesRow>
+	<firstDataRow>2</firstDataRow>
+	<sortedColumnSourceName>phenomenonTime</sortedColumnSourceName>
+	<sortFilesBySourceNames>phenomenonTime</sortFilesBySourceNames>
+	<fileTableInMemory>false</fileTableInMemory>
+	<addAttributes>
+		<att name="acknowledgement">???</att>
+		<att name="cdm_data_type">TimeSeries</att>
+		<att name="cdm_timeseries_variables">time,depth,latitude,longitude</att>
+		<att name="contributors_email">gianmarco.scarpa at cnr dot it</att>
+		<att name="contributors_name">???</att>
+		<att name="contributors_orcid">???</att>
+		<att name="contributors_role">???</att>
+		<att name="conventions">OceanSITES v1.4,SeaDataNet_1.0,COARDS,CF-1.10, ACDD-1.3</att>
+		<att name="coordinates_reference_system">???</att>
+		<att name="creator_name">Istituto di Scienze Marine del Consiglio Nazionale delle Ricerche</att>
+		<att name="creator_type">institution</att>
+		<att name="creator_url">http://www.ismar.cnr.it</att>
+		<att name="data_best_practices_doi">???</att>
+		<att name="data_creation">???</att>
+		<att name="data_dataset">???</att>
+		<att name="data_doi">???</att>
+		<att name="data_format_original">CSV, netCDF</att>
+		<att name="data_type">NRT</att>
+		<att name="data_update">2025-07-16T16:07:47.809258Z</att>
+		<att name="data_update_frequence">daily</att>
+		<att name="data_version">1.0</att>
+		<att name="distributor_name">???</att>
+		<att name="distributor_url">???</att>
+		<att name="geospatial_vertical_positive">up</att>
+		<att name="geospatial_vertical_units">metres</att>
+		<att name="infoUrl">http://www.ismar.cnr.it</att>
+		<att name="inspire">???</att>
+		<att name="institution">Istituto di Scienze Marine del Consiglio Nazionale delle Ricerche</att>
+		<att name="institution_edmo_code">227</att>
+		<att name="institution_edmo_uri">https://edmo.seadatanet.org/report/227</att>
+		<att name="institution_ror_code">02hdf6119</att>
+		<att name="institution_ror_uri">https://ror.org/02hdf6119</att>
+		<att name="keywords">???</att>
+		<att name="keywords_vocabulary">GCMD</att>
+		<att name="license">CC-BY-4.0</att>
+		<att name="license_uri">https://creativecommons.org/licenses/by/4.0/</att>
+		<att name="metadata_dataset">???</att>
+		<att name="metadata_source">???</att>
+		<att name="naming_authority">???</att>
+		<att name="oceanographic_campaign">NA</att>
+		<att name="platform_id_orig">???</att>
+		<att name="platform_name">???</att>
+		<att name="platform_organization_managing">???</att>
+		<att name="platform_organization_owning">???</att>
+		<att name="platform_reference_person">???</att>
+		<att name="platform_type_sdn_name">???</att>
+		<att name="platform_type_sdn_uri">???</att>
+		<att name="platform_type_sdn_urn">???</att>
+		<att name="platform_wmo">???</att>
+		<att name="project_code">???</att>
+		<att name="project_DOI">???</att>
+		<att name="project_edmerp">???</att>
+		<att name="project_edmerp_uri">???</att>
+		<att name="project_id">???</att>
+		<att name="project_name">???</att>
+		<att name="project_statement">???</att>
+		<att name="publisher_name">???</att>
+		<att name="publisher_type">???</att>
+		<att name="publisher_url">???</att>
+		<att name="references">???</att>
+		<att name="ri_name">DANUBIUS-RI</att>
+		<att name="ri_short_name">DANUBIUS-RI</att>
+		<att name="ri_national_coordin_organization">???</att>
+		<att name="ri_national_coordin_organization_edmo_code">???</att>
+		<att name="ri_national_coordin_organization_edmo_uri">???</att>
+		<att name="ri_national_coordinating_person">???</att>
+		<att name="ri_start_date">???</att>
+		<att name="ri_geographical_coverage">???</att>
+		<att name="ri_abstract">???</att>
+		<att name="sensor_instance_url">http://seas-devices-api.ve.ismar.cnr.it/instance/waterinsight-wispstation-aipo</att>
+		<att name="ship_call_sign">???</att>
+		<att name="ship_imo">???</att>
+		<att name="ship_name">???</att>
+		<att name="source">???</att>
+		<att name="sourceUrl">(local files)</att>
+		<att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+		<att name="subsetVariables">resultQuality_QC, longitude, latitude, depth</att>
+		<att name="summary">upwelling_radiance_per_unit_wavelength_in_air datastream</att>
+		<att name="time_coverage_duration">???</att>
+		<att name="time_coverage_resolution">???</att>
+		<att name="title">Wispstation at Pontelagoscuro-lu_radiance_AIPO_datastream</att>
+	</addAttributes>
+	<dataVariable>
+		<sourceName>phenomenonTime</sourceName>
+		<destinationName>time</destinationName>
+		<dataType>String</dataType>
+		<addAttributes>
+			<att name="ioos_category">Time</att>
+			<att name="long_name">Phenomenon Time</att>
+			<att name="cf_role">timeseries_id</att>
+			<att name="standard_name">time</att>
+			<att name="time_precision">1970-01-01T00:00:00Z</att>
+			<att name="units">yyyy-MM-dd'T'HH:mm:ss'Z'</att>
+			<att name="units_url">http://vocab.nerc.ac.uk/collection/P06/current/UTBB/</att>
+			<att name="parameter_sdn_name">Elapsed time relative to 1970-01-01T00:00:00Z</att>
+			<att name="parameter_sdn_uri">http://vocab.nerc.ac.uk/collection/P01/current/ELTMEP01/</att>
+			<att name="parameter_sdn_urn">SDN:P01::ELTMEP01</att>
+			<att name="sdn_parameter_name">Elapsed time relative to 1970-01-01T00:00:00Z</att>
+			<att name="sdn_parameter_urn">SDN:P01::ELTMEP01</att>
+			<att name="unit_sdn_name">Seconds</att>
+			<att name="unit_sdn_uri">http://vocab.nerc.ac.uk/collection/P06/current/UTBB/</att>
+			<att name="unit_sdn_urn">SDN:P06::UTBB</att>
+			<att name="sdn_uom_name">Seconds</att>
+			<att name="sdn_uom_urn">SDN:P06::UTBB</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>resultTime</sourceName>
+		<destinationName>resultTime</destinationName>
+		<dataType>String</dataType>
+		<addAttributes>
+			<att name="ioos_category">Time</att>
+			<att name="long_name">Result Time</att>
+			<att name="standard_name">time</att>
+			<att name="time_precision">1970-01-01T00:00:00Z</att>
+			<att name="units">yyyy-MM-dd'T'HH:mm:ss'Z'</att>
+			<att name="units_url">http://vocab.nerc.ac.uk/collection/P06/current/UTBB/</att>
+			<att name="parameter_sdn_name">Elapsed time relative to 1970-01-01T00:00:00Z</att>
+			<att name="parameter_sdn_uri">http://vocab.nerc.ac.uk/collection/P01/current/ELTMEP01/</att>
+			<att name="parameter_sdn_urn">SDN:P01::ELTMEP01</att>
+			<att name="sdn_parameter_name">Elapsed time relative to 1970-01-01T00:00:00Z</att>
+			<att name="sdn_parameter_urn">SDN:P01::ELTMEP01</att>
+			<att name="unit_sdn_name">Seconds</att>
+			<att name="unit_sdn_uri">http://vocab.nerc.ac.uk/collection/P06/current/UTBB/</att>
+			<att name="unit_sdn_urn">SDN:P06::UTBB</att>
+			<att name="sdn_uom_name">Seconds</att>
+			<att name="sdn_uom_urn">SDN:P06::UTBB</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>longitude</sourceName>
+		<destinationName>longitude</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum">180.0</att>
+			<att name="colorBarMinimum">-180.0</att>
+			<att name="ioos_category">Location</att>
+			<att name="long_name">Longitude</att>
+			<att name="standard_name">longitude</att>
+			<att name="units">degrees_east</att>
+			<att name="parameter_sdn_name">Longitude east</att>
+			<att name="parameter_sdn_uri">http://vocab.nerc.ac.uk/collection/P01/current/ALONZZ01/</att>
+			<att name="parameter_sdn_urn">SDN:P01::ALONZZ01</att>
+			<att name="sdn_parameter_urn">SDN:P01::ALONZZ01</att>
+			<att name="sdn_parameter_name">Longitude east</att>
+			<att name="unit_sdn_name">Degrees east</att>
+			<att name="unit_sdn_uri">http://vocab.nerc.ac.uk/collection/P06/current/DEGE/</att>
+			<att name="unit_sdn_urn">SDN:P06::DEGE</att>
+			<att name="sdn_uom_name">Degrees east</att>
+			<att name="sdn_uom_urn">SDN:P06::DEGE</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>latitude</sourceName>
+		<destinationName>latitude</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMinimum">-90.0</att>
+			<att name="colorBarMaximum">90.0</att>
+			<att name="ioos_category">Location</att>
+			<att name="long_name">Latitude</att>
+			<att name="standard_name">latitude</att>
+			<att name="units">degrees_north</att>
+			<att name="parameter_sdn_name">Latitude north</att>
+			<att name="parameter_sdn_uri">http://vocab.nerc.ac.uk/collection/P01/current/ALATZZ01/</att>
+			<att name="parameter_sdn_urn">SDN:P01::ALATZZ01</att>
+			<att name="sdn_parameter_urn">SDN:P01::ALATZZ01</att>
+			<att name="sdn_parameter_name">Latitude north</att>
+			<att name="unit_sdn_name">Degrees north</att>
+			<att name="unit_sdn_uri">http://vocab.nerc.ac.uk/collection/P06/current/DEGN/</att>
+			<att name="unit_sdn_urn">SDN:P06::DEGN</att>
+			<att name="sdn_uom_name">Degrees north</att>
+			<att name="sdn_uom_urn">SDN:P06::DEGN</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Elevation</sourceName>
+		<destinationName>depth</destinationName>
+		<dataType>byte</dataType>
+		<addAttributes>
+			<att name="_FillValue">127</att>
+			<att name="ioos_category">Location</att>
+			<att name="long_name">Depth</att>
+			<att name="units">m</att>
+			<att name="reference">mean_sea_level</att>
+			<att name="scale_factor" type="double">-1.0</att>
+			<att name="parameter_sdn_name">Depth (spatial coordinate) relative to water surface in the water body</att>
+			<att name="parameter_sdn_uri">http://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/</att>
+			<att name="parameter_sdn_urn">SDN:P01::ADEPZZ01</att>
+			<att name="sdn_parameter_urn">SDN:P01::ADEPZZ01</att>
+			<att name="sdn_parameter_name">Depth (spatial coordinate) relative to water surface in the water body</att>
+			<att name="unit_sdn_name">Degrees north</att>
+			<att name="unit_sdn_uri">http://vocab.nerc.ac.uk/collection/P06/current/ULAA/</att>
+			<att name="unit_sdn_urn">SDN:P06::ULAA</att>
+			<att name="sdn_uom_name">Metres</att>
+			<att name="sdn_uom_urn">SDN:P06::ULAA</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>resultQuality</sourceName>
+		<destinationName>resultQuality_QC</destinationName>
+		<dataType>String</dataType>
+		<addAttributes>
+			<att name="ioos_category">Quality</att>
+			<att name="standard_name">???</att>
+			<att name="long_name">Result Quality DQ Standard</att>
+			<att name="flag_meanings">???</att>
+			<att name="flag_values">???</att>
+			<att name="qc_manual">???</att>
+			<att name="qc_method">DQ Standard</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>result</sourceName>
+		<destinationName>LU_RADIANCE</destinationName>
+		<dataType>String</dataType>
+		<addAttributes>
+			<att name="ebv">???</att>
+			<att name="ebv_uri">???</att>
+			<att name="ecv">???</att>
+			<att name="ecv_uri">???</att>
+			<att name="eov">???</att>
+			<att name="eov_uri">???</att>
+			<att name="eov_ecv">{'ECV': 'Ocean, Biogeochemical: Ocean Colour'}</att>
+			<att name="discipline">???</att>
+			<att name="device_sdn_name">???</att>
+			<att name="device_sdn_uri">???</att>
+			<att name="device_sdn_urn">???</att>
+			<att name="ioos_category">Unknown</att>
+			<att name="long_name">upwelling_radiance_per_unit_wavelength_in_air</att>
+			<att name="observedPropertyVocabulary">http://vocab.nerc.ac.uk/collection/P07/current/0F95XPEG/</att>
+			<att name="parameter_group">???</att>
+			<att name="parameter_sdn_name">???</att>
+			<att name="parameter_sdn_uri">http://vocab.nerc.ac.uk/collection/P07/current/0F95XPEG/</att>
+			<att name="parameter_sdn_urn">???</att>
+			<att name="sensor_accuracy">???</att>
+			<att name="sensor_last_calibration">???</att>
+			<att name="sensor_manufacturer_sdn_name">???</att>
+			<att name="sensor_manufacturer_sdn_uri">???</att>
+			<att name="sensor_manufacturer_sdn_urn">???</att>
+			<att name="sensor_sdn_name">???</att>
+			<att name="sensor_sdn_uri">???</att>
+			<att name="sensor_sdn_urn">???</att>
+			<att name="standard_name">???</att>
+			<att name="unit_sdn_name">Watts per square metre per nanometre per steradian</att>
+			<att name="unit_sdn_uri">???</att>
+			<att name="unit_sdn_urn">???</att>
+			<att name="units">W/m^2/nm/sr</att>
+			<att name="units_url">???</att>
+			<att name="variable_best_practices_doi">???</att>
+		</addAttributes>
+	</dataVariable>
+</dataset>
