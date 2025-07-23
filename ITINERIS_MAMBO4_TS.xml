@@ -1,0 +1,1579 @@
+<dataset type="EDDTableFromDapSequence" datasetID="ITINERIS_MAMBO4_TS" active="true">
+    <sourceUrl>https://nodc.ogs.it/erddap/tabledap/MAMBO4_TS</sourceUrl>
+    <outerSequenceName>s</outerSequenceName>
+    <skipDapperSpacerRows>false</skipDapperSpacerRows>
+    <sourceCanConstrainStringEQNE>true</sourceCanConstrainStringEQNE>
+    <sourceCanConstrainStringGTLT>true</sourceCanConstrainStringGTLT>
+    <sourceCanConstrainStringRegex></sourceCanConstrainStringRegex>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <!-- sourceAttributes>
+        // NON SU DOCUMENTO
+        <att name="cdm_timeseries_variables">time,depth,latitude,longitude</att>
+        <att name="data_mode">R</att>
+        <att name="data_type">OceanSITES time-series data</att>
+        <att name="Easternmost_Easting" type="double">13.343814</att>
+        <att name="featureType">TimeSeries</att>
+        <att name="format_version">1.4</att>
+        <att name="Northernmost_Northing" type="double">45.594467</att>
+        <att name="sourceUrl">(source database)</att>
+        <att name="Southernmost_Northing" type="double">45.594467</att>
+        <att name="Westernmost_Easting" type="double">13.343814</att>
+        // RIMOSSI
+        <att name="history">moored surface buoy 2024-11-06T10:47:18Z (source database) 2024-11-06T10:47:18Z https://nodc.ogs.it/erddap/tabledap/MAMBO4_TS.das</att>
+        <att name="network">OceanSITES</att>
+        <att name="site_code">MAMBO4</att>
+        <att name="source_platform_category_code">41</att>
+
+        // SU DOCUMENTO
+        /// NON MODIFICATI
+        <att name="Conventions">CF-1.6, Copernicus-InSituTAC-FormatManual-1.42, Copernicus-InSituTAC-SRD-1.5, Copernicus-InSituTAC-ParametersList-3.2.0, COARDS, ACDD-1.3, OceanSITES v1.4, SeaDataNet_1.0</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://nodc.ogs.it</att>
+        <att name="infoUrl">https://nodc.ogs.it</att>
+        <att name="institution">Protezione Civile - Friuli Venezia Giulia</att>
+        <att name="institution_edmo_code">1613</att>
+        <att name="institution_edmo_uri">https://edmo.seadatanet.org/report/1613</att>
+        <att name="license">These data were collected and made freely available by the Copernicus project and the programs that contribute to it.</att>
+        <att name="title">MAMBO4 timeSeries ALL INSTRUMENTS, NRT in situ Observations</att>
+        <att name="cdm_data_type">TimeSeries</att>
+        <att name="geospatial_lat_max" type="double">45.594467</att>
+        <att name="geospatial_lat_min" type="double">45.594467</att>
+        <att name="geospatial_lat_units">degrees_north</att>
+        <att name="geospatial_lon_max" type="double">13.343814</att>
+        <att name="geospatial_lon_min" type="double">13.343814</att>
+        <att name="geospatial_lon_units">degrees_east</att>
+        <att name="geospatial_vertical_max" type="double">50.0</att>
+        <att name="geospatial_vertical_min" type="double">-5.0</att>
+        <att name="geospatial_vertical_positive">down</att>
+        <att name="geospatial_vertical_units">m</att>
+        <att name="time_coverage_start">2021-01-01T00:00:00Z</att>
+        // MODIFICATI
+        <att name="keywords">AHGT, ALAT, ALKY, AYMD, CAPH, CDTA, CHUM, CNDC, DOXY, EWSB, PSAL, TEMP, TSED</att>
+        <att name="keywords_vocabulary">SeaDataNet Parameter Discovery Vocabulary</att>
+        <att name="source">moored surface buoy</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v72</att>
+        <att name="summary">MAMBO4 timeSeries ALL INSTRUMENTS, NRT in situ Observations</att>
+        <att name="date_created">44197</att>
+        <att name="principal_investigator">Fabio Brunetti</att>
+        <att name="update_interval">void</att>
+        <att name="platform_code">MAMBO4</att>
+        // RIMOSSI
+        <att name="creator_email">nodc@ogs.it</att>
+        <att name="principal_investigator_email">fbrunetti@ogs.it</att>
+    </sourceAttributes -->
+    <addAttributes>
+        <att name="principal_investigator">null</att>
+        <att name="contributors_name">Fabio Brunetti</att>
+        <att name="contributors_orcid">0000-0003-0218-4758</att>
+
+        <att name="creator_name">NODC</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://nodc.ogs.it</att>
+
+        <att name="date_created">null</att>
+        <att name="update_interval">null</att>
+                
+        <att name="institution_logo">https://www.protezionecivile.fvg.it/themes/pcr/logo.svg</att>
+        
+        <att name="keywords">ahgt, AHGT_QC, air, air_pressure_at_sea_level, air_temperature, alat, alkalinity, alky, all, applied, atmosphere, atmospheric, ATMS, ATMS_QC, aymd, bearing, bulb, caph, cdta, chum, circulation, cndc, compass, corrected, data, depth, describe, devices, direction, discharge, displacement, division, doxy, dry, DRYT, DRYT_QC, earth, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Pressure &gt; Static Pressure, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature, Earth Science &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, Earth Science &gt; Oceans &gt; Ocean Circulation &gt; Fresh Water Flux, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Potential Temperature, ewsb, EWSB_QC, flag, flow, flux, fresh, GDIR, GDIR_QC, geophysics, GSPD, GSPD_QC, gust, HEAD, HEAD_QC, horizontal, humidity, institute, instruments, into, latitude, level, longitude, magnetically, magnetically-corrected, mambo4, measurements, meteorology, national, near, north, nrt, observations, ocean, oceanography, oceans, ogs, orientation, origins, parameters, platform, platform_orientation, platforms, pointing, potential, pressure, psal, quality, quality_flag, real, relative, relative_humidity, RELH, RELH_QC, river, rivers, RVDS, RVDS_QC, sampling, science, sea, sea_water_potential_temperature, seawater, sensors, situ, space, speed, static, structure, surface, TEMP, TEMP_QC, temperature, time, timeseries, total, towards, true, tsed, vapor, various, water, water_flux_into_sea_water_from_rivers, WDIR, WDIR_QC, which, wind, wind_from_direction, wind_speed, wind_speed_of_gust, winds, WSPD, WSPD_QC</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        
+        <att name="platform_code">null</att>
+        <att name="platform_id_orig">MAMBO4</att>
+        
+        <att name="source">null</att>
+        <att name="platform_type_sdn_name">moored surface buoy</att>
+        <att name="platform_type_sdn_uri">https://vocab.nerc.ac.uk/collection/L06/current/41/</att>
+        <att name="platform_type_sdn_urn">SDN:L06::41</att>
+        
+        <att name="standard_name_vocabulary">CF Standard Name Table v72</att>
+        <att name="summary">MAMBO4 timeSeries ALL INSTRUMENTS, Near Real Time (NRT) in situ Observations</att>
+
+        <att name="ri_short_name">JERICO</att>
+
+        <att name="creator_email">null</att>
+        <att name="principal_investigator_email">null</att>
+
+        <att name="history">null</att>
+        <att name="network">null</att>
+        <att name="site_code">null</att>
+        <att name="source_platform_category_code">null</att>
+        <att name="subsetVariables">null</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_CoordinateAxisType">Time</att>
+            <att name="actual_range" type="doubleList">1.6094592E9 NaN</att>
+            <att name="axis">T</att>
+            <att name="cf_role">timeseries_id</att>
+            <att name="ioos_category">Time</att>
+            <att name="time_origin">01-JAN-1970 00:00:00</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Elapsed time relative to 1970-01-01T00:00:00Z</att>
+            <att name="sdn_parameter_urn">SDN:P01::ELTMEP01</att>
+            <att name="sdn_uom_name">Seconds</att>
+            <att name="sdn_uom_urn">SDN:P06::UTBB</att>            
+        </sourceAttributes -->
+        <addAttributes> 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+            
+            <att name="parameter_sdn_name">Elapsed time relative to 1970-01-01T00:00:00Z</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/ELTMEP01</att>
+            <att name="parameter_sdn_urn">SDN:P01::ELTMEP01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Seconds</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UTBB</att>
+            <att name="unit_sdn_urn">SDN:P06::UTBB</att>
+            
+            <att name="colorBarMinimum" type="double">1.6094592E9</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_CoordinateAxisType">Lat</att>
+            <att name="actual_range" type="doubleList">45.594467 45.594467</att>
+            <att name="axis">Y</att>
+            <att name="ioos_category">Location</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Latitude north</att>
+            <att name="sdn_parameter_urn">SDN:P01::ALATZZ01</att>
+            <att name="sdn_uom_name">Degrees north</att>
+            <att name="sdn_uom_urn">SDN:P06::DEGN</att>            
+        </sourceAttributes -->
+        <addAttributes> 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+            
+            <att name="parameter_sdn_name">Latitude north</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/ALATZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::ALATZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Degrees north</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/DEGN</att>
+            <att name="unit_sdn_urn">SDN:P06::DEGN</att>
+
+            <att name="units_url">https://docs.unidata.ucar.edu/udunits/current/udunits2-common.xml</att>
+
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_CoordinateAxisType">Lon</att>
+            <att name="actual_range" type="doubleList">13.343814 13.343814</att>
+            <att name="axis">X</att>
+            <att name="ioos_category">Location</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Longitude east</att>
+            <att name="sdn_parameter_urn">SDN:P01::ALONZZ01</att>            
+            <att name="sdn_uom_name">Degrees east</att>
+            <att name="sdn_uom_urn">SDN:P06::DEGE</att>            
+        </sourceAttributes -->
+        <addAttributes> 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+            
+            <att name="parameter_sdn_name">Longitude east</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/ALONZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::ALONZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Degrees east</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/DEGE</att>
+            <att name="unit_sdn_urn">SDN:P06::DEGE</att>
+
+            <att name="units_url">https://docs.unidata.ucar.edu/udunits/current/udunits2-common.xml</att>
+
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>depth</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_CoordinateAxisType">Height</att>
+            <att name="_CoordinateZisPositive">down</att>
+            <att name="actual_range" type="floatList">-5.0 50.0</att>
+            <att name="axis">Z</att>
+            <att name="ioos_category">Location</att>
+            <att name="positive">down</att>
+            <att name="reference">sea_level</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Depth</att>
+            <att name="standard_name">depth</att>
+            // MODIFICATI            
+            <att name="sdn_parameter_name">Depth (spatial coordinate) relative to water surface in the water body</att>
+            <att name="sdn_parameter_urn">SDN:P01::ADEPZZ01</att>            
+            <att name="sdn_uom_name">Metres</att>
+            <att name="sdn_uom_urn">SDN:P06::ULAA</att>            
+            <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes> 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+            
+            <att name="parameter_sdn_name">Depth (spatial coordinate) relative to water surface in the water body</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::ADEPZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Metres</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/ULAA</att>
+            <att name="unit_sdn_urn">SDN:P06::ULAA</att>
+            
+            <att name="units">meter</att>
+            <att name="units_url">https://docs.unidata.ucar.edu/udunits/current/udunits2-base.xml</att>
+
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="reference">null</att>
+            <att name="references">sea_level</att>
+        </addAttributes>
+    </dataVariable>
+	
+    <dataVariable>
+        <sourceName>WDIR</sourceName>
+        <destinationName>WDIR</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">WDIR_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Wind</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">wind from direction relative true north</att>
+            <att name="standard_name">wind_from_direction</att>
+            <att name="units">Degrees</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Direction (from) of wind relative to True North {wind direction} in the atmosphere</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::EWDAZZ01</att>
+            <att name="sdn_uom_name">Degrees</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UAAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UAAA</att>
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Wind Speed and Direction</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-wind-speed-and-direction</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+            <att name="parameter_sdn_name">Direction (from) of wind relative to True North {wind direction} in the atmosphere</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/EWDAZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::EWDAZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Degrees</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UAAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UAAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="units">degree</att>
+            <att name="units_url">https://docs.unidata.ucar.edu/udunits/current/udunits2-accepted.xml</att>
+
+            <att name="colorBarMaximum" type="double">360.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>WSPD</sourceName>
+        <destinationName>WSPD</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">WSPD_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Wind</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">horizontal wind speed</att>
+            <att name="standard_name">wind_speed</att>
+            <att name="units">Metres per second</att>            
+            // MODIFICATI            
+            <att name="sdn_parameter_name">Speed of wind {wind speed} in the atmosphere</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::EWSBZZ01</att>            
+            <att name="sdn_uom_name">Metres per second</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UVAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UVAA</att>            
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>            
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Wind Speed and Direction</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-wind-speed-and-direction</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+            <att name="parameter_sdn_name">Speed of wind {wind speed} in the atmosphere</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/EWSBZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::EWSBZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Metres per second</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UVAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UVAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+            
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="units">m/s</att>
+
+            <att name="colorBarMaximum" type="double">15.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DRYT</sourceName>
+        <destinationName>DRYT</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">DRYT_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">air temperature in dry bulb</att>
+            <att name="standard_name">air_temperature</att>
+            //MODIFICATI
+            <att name="sdn_parameter_name">Temperature of the atmosphere</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::CTMPZZ01</att>            
+            <att name="sdn_uom_name">Degrees Celsius</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UPAA</att>            
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>            
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>            
+            <att name="units">Degrees Celsius</att>            
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Temperature</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-temperature</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+            <att name="parameter_sdn_name">Temperature of the atmosphere</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/CTMPZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::CTMPZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Degrees Celsius</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UPAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+
+            <att name="units">degree_Celsius</att>
+            <att name="units_uri">https://docs.unidata.ucar.edu/udunits/current/udunits2-derived.xml</att>
+            
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="colorBarMaximum" type="double">40.0</att>
+            <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ATMS</sourceName>
+        <destinationName>ATMS</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">ATMS_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">atmospheric pressure at sea level</att>
+            <att name="standard_name">air_pressure_at_sea_level</att>
+            // MODIFICATI           
+            <att name="sdn_parameter_name">Pressure (measured variable) exerted by the atmosphere by unknown instrument and correction to sea level</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/CAPAZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::CAPAZZ01</att>            
+            <att name="sdn_uom_name">Millibars</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPBB/</att>
+            <att name="sdn_uom_urn">SDN:P06::UPBB</att>            
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>           
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>            
+            <att name="units">Millibars</att>            
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Pressure</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-pressure</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+            <att name="parameter_sdn_name">Pressure (measured variable) exerted by the atmosphere by unknown instrument and correction to sea level</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/CAPAZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::CAPAZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Millibars</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPBB</att>
+            <att name="unit_sdn_urn">SDN:P06::UPBB</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+
+            <att name="units">mbar</att>
+            
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="colorBarMaximum" type="double">1050.0</att>
+            <att name="colorBarMinimum" type="double">950.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>RELH</sourceName>
+        <destinationName>RELH</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">RELH_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Meteorology</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">relative humidity</att>
+            <att name="standard_name">relative_humidity</att>
+            // MODIFICATI            
+            <att name="sdn_parameter_name">Relative humidity of the atmosphere</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/CRELZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::CRELZZ01</att>            
+            <att name="sdn_uom_name">Percent</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPCT/</att>
+            <att name="sdn_uom_urn">SDN:P06::UPCT</att>            
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>            
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>            
+            <att name="units">Percent</att>            
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Water Vapour</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-water-vapour</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+
+            <att name="parameter_sdn_name">Relative humidity of the atmosphere</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/CRELZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::CRELZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Percent</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPCT</att>
+            <att name="unit_sdn_urn">SDN:P06::UPCT</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+            
+            <att name="units">percent</att>
+            <att name="units_uri">https://docs.unidata.ucar.edu/udunits/current/udunits2-common.xml</att>
+            
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>HEAD</sourceName>
+        <destinationName>HEAD</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">HEAD_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Other</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Parameters that describe the displacement of platforms or instruments in space relative to various origins</att>
+            <att name="standard_name">platform_orientation</att>
+            <att name="units">Degrees</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Orientation (horizontal) of measurement platform relative to magnetic north {heading} by compass</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/HEADCMMG/</att>
+            <att name="sdn_parameter_urn">SDN:P01::HEADCMMG</att>
+            <att name="sdn_uom_name">Degrees</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UAAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UAAA</att>
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>            
+        </sourceAttributes -->
+        <addAttributes>             
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+            <att name="sdn_parameter_uri">null</att>
+
+            <att name="parameter_sdn_name">Orientation (horizontal) of measurement platform relative to magnetic north {heading} by compass</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/HEADCMMG</att>
+            <att name="parameter_sdn_urn">SDN:P01::HEADCMMG</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Degrees</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UAAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UAAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="units">degree</att>
+            <att name="units_uri">https://docs.unidata.ucar.edu/udunits/current/udunits2-accepted.xml</att>
+
+            <att name="colorBarMaximum" type="double">0.1</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>EWSB</sourceName>
+        <destinationName>EWSB</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">EWSB_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Wind</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Speed of wind in the atmosphere</att>
+            <att name="standard_name">wind_speed</att>
+            <att name="units">Metres per second</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Speed of wind {wind speed} in the atmosphere by in-situ anemometer</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/EWSKSS01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::EWSKSS01</att>            
+            <att name="sdn_uom_name">Metres per second</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UVAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UVAA</att>            
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>            
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>            
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Wind Speed and Direction</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-wind-speed-and-direction</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+
+            <att name="parameter_sdn_name">Speed of wind {wind speed} in the atmosphere by in-situ anemometer</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/EWSKSS01</att>
+            <att name="parameter_sdn_urn">SDN:P01::EWSKSS01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Metres per second</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UVAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UVAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+            
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="units">m/s</att>
+
+            <att name="colorBarMaximum" type="double">15.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GSPD</sourceName>
+        <destinationName>GSPD</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">GSPD_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Wind</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">gust wind speed</att>
+            <att name="standard_name">wind_speed_of_gust</att>
+            <att name="units">Metres per second</att>
+            // MODIFICATI            
+            <att name="sdn_parameter_name">Speed of wind (gust) {wind speed} in the atmosphere</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/EGTSZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::EGTSZZ01</att>            
+            <att name="sdn_uom_name">Metres per second</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UVAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UVAA</att>            
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>            
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Wind Speed and Direction</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-wind-speed-and-direction</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+
+            <att name="parameter_sdn_name">Speed of wind (gust) {wind speed} in the atmosphere</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/EGTSZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::EGTSZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Metres per second</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UVAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UVAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="units">m/s</att>
+
+            <att name="colorBarMaximum" type="double">30.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GDIR</sourceName>
+        <destinationName>GDIR</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">GDIR_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Wind</att>
+            <att name="sensor_label">METEO</att>
+            <att name="sensor_serial_number">XXX</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Gust direction</att>
+            <att name="standard_name">wind_from_direction</att>
+            <att name="units">Degrees</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Direction (from) of wind (gust) relative to True North {wind direction} in the atmosphere</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/EGTDZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::EGTDZZ01</att>
+            <att name="sdn_uom_name">Degrees</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UAAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UAAA</att>
+            <att name="sensor_manufacturer">R.M. Young</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0037</att>
+            <att name="sensor_model">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL1327</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Surface Wind Speed and Direction</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/surface-wind-speed-and-direction</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+            <att name="parameter_sdn_name">Direction (from) of wind (gust) relative to True North {wind direction} in the atmosphere</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/EGTDZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::EGTDZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Degrees</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UAAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UAAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">R.M. Young</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0037/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0037</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">RM Young 32500 (electronic) magnetic compass</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL1327/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL1327</att>
+
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="units">degree</att>
+            <att name="units_uri">https://docs.unidata.ucar.edu/udunits/current/udunits2-accepted.xml</att>
+
+            <att name="colorBarMaximum" type="double">360.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>AHGT</sourceName>
+        <destinationName>AHGT</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">AHGT_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Location</att>
+            <att name="sensor_label">ADCP</att>
+            <att name="sensor_serial_number">AQD150675</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">Depth</att>
+            <att name="standard_name">depth</att>
+            // MODIFICATI           
+            <att name="sdn_parameter_name">Depth (spatial coordinate) relative to water surface in the water body</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::ADEPZZ01</att>
+            <att name="sdn_uom_name">Metres</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/ULAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::ULAA</att>
+            <att name="sensor_manufacturer">Nortek</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0068/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0068</att>
+            <att name="sensor_model">Nortek Aquadopp Doppler current profiler</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL0888/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL0888</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes> 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+
+            <att name="parameter_sdn_name">Depth (spatial coordinate) relative to water surface in the water body</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/ADEPZZ01</att>
+            <att name="parameter_sdn_urn">SDN:P01::ADEPZZ01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Metres</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/ULAA</att>
+            <att name="unit_sdn_urn">SDN:P06::ULAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">Nortek</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0068/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0068</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">Nortek Aquadopp Doppler current profiler</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL0888/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL0888</att>
+            
+            <att name="units">meter</att>
+            <att name="units_uri">https://docs.unidata.ucar.edu/udunits/current/udunits2-base.xml</att>
+            
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TEMP</sourceName>
+        <destinationName>TEMP</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">TEMP_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="sensor_label">ADCP</att>
+            <att name="sensor_serial_number">AQD150675</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">sea potential temperature</att>
+            <att name="standard_name">sea_water_potential_temperature</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Temperature of the water body</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/</att>
+            <att name="sdn_parameter_urn">SDN:P01::TEMPPR01</att>
+            <att name="sdn_uom_name">Degrees Celsius</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPAA/</att>
+            <att name="sdn_uom_urn">SDN:P06::UPAA</att>
+            <att name="sensor_manufacturer">Nortek</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0068/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0068</att>
+            <att name="sensor_model">Nortek Aquadopp Doppler current profiler</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL0888/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL0888</att>
+            <att name="units">Degrees Celsius</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">Subsurface Temperature</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/subsurface-temperature</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+
+            <att name="parameter_sdn_name">Temperature of the water body</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01</att>
+            <att name="parameter_sdn_urn">SDN:P01::TEMPPR01</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Degrees Celsius</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/UPAA</att>
+            <att name="unit_sdn_urn">SDN:P06::UPAA</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">Nortek</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0068/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0068</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">Nortek Aquadopp Doppler current profiler</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL0888/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL0888</att>
+
+            <att name="units">degree_Celsius</att>
+            <att name="units_uri">https://docs.unidata.ucar.edu/udunits/current/udunits2-derived.xml</att>
+           
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="colorBarMaximum" type="double">32.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>RVDS</sourceName>
+        <destinationName>RVDS</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="ancillary_variables">RVDS_QC</att>
+            <att name="coordinates">TIME; DEPTH; LATITUDE; LONGITUDE</att>
+            <att name="data_mode">R</att>
+            <att name="ioos_category">Other</att>
+            <att name="sensor_label">ADCP</att>
+            <att name="sensor_serial_number">AQD150675</att>
+            // RIMOSSI
+            <att name="sensor_mount">mounted_on_surface_buoy</att>
+            <att name="sensor_orientation">horizontal</att>
+
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="long_name">River flow and discharge</att>
+            <att name="standard_name">water_flux_into_sea_water_from_rivers</att>
+            <att name="units">Cubic metres per second</att>
+            // MODIFICATI
+            <att name="sdn_parameter_name">Riverine discharge of water by direct reading current meter and calculation from flow</att>
+            <att name="sdn_parameter_uri">https://vocab.nerc.ac.uk/collection/P01/current/RFDSCH02/</att>
+            <att name="sdn_parameter_urn">SDN:P01::RFDSCH02</att>
+            <att name="sdn_uom_name">Cubic metres per second</att>
+            <att name="sdn_uom_uri">https://vocab.nerc.ac.uk/collection/P06/current/CMPS/</att>
+            <att name="sdn_uom_urn">SDN:P06::CMPS</att>
+            <att name="sensor_manufacturer">Nortek</att>
+            <att name="sensor_manufacturer_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0068/</att>
+            <att name="sensor_manufacturer_urn">SDN:L35::MAN0068</att>
+            <att name="sensor_model">Nortek Aquadopp Doppler current profiler</att>
+            <att name="sensor_reference">https://vocab.nerc.ac.uk/collection/L22/current/TOOL0888/</att>
+            <att name="sensor_SeaVoX_L22_code">SDN:L22::TOOL0888</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ecv">River Discharge</att>
+            <att name="ecv_uri">https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables/river-discharge</att>
+ 
+            <att name="sdn_parameter_name">null</att>
+            <att name="sdn_parameter_urn">null</att>
+            <att name="sdn_parameter_uri">null</att>
+
+
+            <att name="parameter_sdn_name">Riverine discharge of water by direct reading current meter and calculation from flow</att>
+            <att name="parameter_sdn_uri">https://vocab.nerc.ac.uk/collection/P01/current/RFDSCH02</att>
+            <att name="parameter_sdn_urn">SDN:P01::RFDSCH02</att>
+            
+            <att name="sdn_uom_name">null</att>
+            <att name="sdn_uom_urn">null</att>
+            <att name="sdn_uom_uri">null</att>
+            <att name="sdn_uom_uri">null</att>
+            
+            <att name="unit_sdn_name">Cubic metres per second</att>
+            <att name="unit_sdn_uri">https://vocab.nerc.ac.uk/collection/P06/current/CMPS</att>
+            <att name="unit_sdn_urn">SDN:P06::CMPS</att>
+            
+            <att name="sensor_manufacturer">null</att>
+            <att name="sensor_manufacturer_uri">null</att>
+            <att name="sensor_manufacturer_urn">null</att>
+            
+            <att name="sensor_manufacturer_sdn_name">Nortek</att>
+            <att name="sensor_manufacturer_sdn_uri">https://vocab.nerc.ac.uk/collection/L35/current/MAN0068/</att>
+            <att name="sensor_manufacturer_sdn_urn">SDN:L35::MAN0068</att>
+            
+            <att name="sensor_model">null</att>
+            <att name="sensor_reference">null</att>
+            <att name="sensor_SeaVoX_L22_code">null</att>
+            
+            <att name="sensor_sdn_name">Nortek Aquadopp Doppler current profiler</att>
+            <att name="sensor_sdn_uri">https://vocab.nerc.ac.uk/collection/L22/current/TOOL0888/</att>
+            <att name="sensor_sdn_urn">SDN:L22::TOOL0888</att>
+
+            <att name="sensor_mount">null</att>
+            <att name="sensor_orientation">null</att>
+
+            <att name="units">m3/s</att>
+
+            <att name="coordinates">null</att>
+        </addAttributes>
+    </dataVariable>
+	
+	<!-- QC VARIABLE -->
+	<dataVariable>
+        <sourceName>WDIR_QC</sourceName>
+        <destinationName>WDIR_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+
+            // SU DOCUMENTO            
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">wind from direction relative true north quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>WSPD_QC</sourceName>
+        <destinationName>WSPD_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">horizontal wind speed quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>DRYT_QC</sourceName>
+        <destinationName>DRYT_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            /// RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">air temperature in dry bulb quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>ATMS_QC</sourceName>
+        <destinationName>ATMS_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">atmospheric pressure at sea level quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>RELH_QC</sourceName>
+        <destinationName>RELH_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">relative humidity quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>HEAD_QC</sourceName>
+        <destinationName>HEAD_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            <att name="ioos_category">Quality</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="long_name">The magnetically-corrected compass direction towards which a structure bearing sensors or sampling devices is pointing. quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions"></att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>EWSB_QC</sourceName>
+        <destinationName>EWSB_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            <att name="ioos_category">Quality</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="long_name">Speed of wind in the atmosphere quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>GSPD_QC</sourceName>
+        <destinationName>GSPD_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            <att name="ioos_category">Quality</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="long_name">gust wind speed quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>GDIR_QC</sourceName>
+        <destinationName>GDIR_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            <att name="ioos_category">Quality</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="long_name">Gust direction quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>AHGT_QC</sourceName>
+        <destinationName>AHGT_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            <att name="ioos_category">Quality</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="long_name">total alkalinity quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>TEMP_QC</sourceName>
+        <destinationName>TEMP_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            <att name="ioos_category">Quality</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="long_name">sea potential temperature quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+	<dataVariable>
+        <sourceName>RVDS_QC</sourceName>
+        <destinationName>RVDS_QC</destinationName>
+        <!-- sourceAttributes>
+            // NON SU DOCUMENTO
+            <att name="_FillValue" type="byte">127</att>
+            <att name="_Unsigned">false</att>
+            <att name="colorBarMaximum" type="byte">9</att>
+            <att name="colorBarMinimum" type="byte">6</att>
+            <att name="valid_max" type="byte">9</att>
+            <att name="valid_min" type="byte">0</att>
+            <att name="ioos_category">Quality</att>
+            // RIMOSSI
+            <att name="Conventions">Copernicus Marine In Situ reference table 2</att>
+            
+            // SU DOCUMENTO
+            // NON MODIFICATI
+            <att name="flag_meanings">no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed value_below_detection nominal_value interpolated_value missing_value</att>
+            <att name="flag_values" type="byteList">0 1 2 3 4 5 6 7 8 9</att>
+            <att name="long_name">sea potential temperature quality flag</att>
+            <att name="standard_name">quality_flag</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="Conventions">null</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
