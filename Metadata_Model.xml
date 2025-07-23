@@ -5,11 +5,11 @@
 	<!-- GLOBAL METADATA -->
     <addAttributes>
         <att name="acknowledgement">COMPLETARE</att>
-        <att name="cdm_data_type">COMPLETARE</att>
+        <att name="cdm_data_type">[timeseries, profile, grid, other]</att>
         <att name="contributors_name">COMPLETARE</att>
         <att name="contributors_orcid">COMPLETARE</att>
         <att name="contributors_role">COMPLETARE</att>
-        <att name="conventions">OceanSITES v1.4,SeaDataNet_1.0,COARDS,CF-1.10, ACDD-1.3</att>
+        <att name="conventions">COMPLETARE</att>
         <att name="coordinates_reference_system">COMPLETARE</att>
         <att name="creator_name">COMPLETARE</att>
         <att name="creator_type">COMPLETARE</att>
@@ -43,9 +43,9 @@
         <att name="institution_ror_code">COMPLETARE</att>
         <att name="institution_ror_uri">COMPLETARE</att>
         <att name="keywords">COMPLETARE</att>
-        <att name="keywords_vocabulary">GCMD</att>
-        <att name="license">CC-BY-4.0</att>
-        <att name="license_uri">https://creativecommons.org/licenses/by/4.0/</att>
+        <att name="keywords_vocabulary">COMPLETARE</att>
+        <att name="license">COMPLETARE</att>
+        <att name="license_uri">COMPLETARE</att>
         <att name="metadata_dataset">COMPLETARE</att>
         <att name="metadata_source">COMPLETARE</att>
         <att name="naming_authority">COMPLETARE</att>
@@ -71,7 +71,7 @@
         <att name="publisher_url">COMPLETARE</att>
         <att name="references">COMPLETARE</att>
         <att name="ri_name">COMPLETARE</att>
-        <att name="ri_short_name">COMPLETARE</att>
+        <att name="ri_short_name">[IT-IOOS, DANUBIUS, eLTER, EMSO ERIC, Euro-Argo ERIC, EROFLEET, GEOSCIENCE-MER, ICOS ERIC JERICO, LAURA BASSI, OCEAN SOUND, SIOS]</att>
         <att name="ri_national_coordin_organization">COMPLETARE</att>
         <att name="ri_national_coordin_organization_edmo_code">COMPLETARE</att>
         <att name="ri_national_coordin_organization_edmo_uri">COMPLETARE</att>
@@ -86,9 +86,9 @@
         <att name="standard_name_vocabulary">COMPLETARE</att>
         <att name="summary">COMPLETARE</att>
         <att name="time_coverage_duration">COMPLETARE</att>
-        <att name="time_coverage_end">COMPLETARE</att>
+        <att name="time_coverage_end">COMPLETARE(date)</att>
         <att name="time_coverage_resolution">COMPLETARE</att>
-        <att name="time_coverage_start">COMPLETARE</att>
+        <att name="time_coverage_start">COMPLETARE(date)</att>
         <att name="title">COMPLETARE</att>
     </addAttributes>
 	
@@ -101,7 +101,7 @@
         <addAttributes>
             <att name="ebv">COMPLETARE</att>
             <att name="ebv_uri">COMPLETARE</att>
-            <att name="ecv">COMPLETARE</att>
+            <att name="ecv">COMPLETARE (https://gcos.wmo.int/site/global-climate-observing-system-gcos/essential-climate-variables, https://goosocean.org/what-we-do/framework/essential-ocean-variables/)</att>
             <att name="ecv_uri">COMPLETARE</att>
             <att name="discipline">COMPLETARE</att>
             <att name="device_sdn_name">COMPLETARE</att>
